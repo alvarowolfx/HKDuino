@@ -3,7 +3,7 @@ This is my personal DIY home automation project consisting of these modules:
 
 * Central/Controller - RaspberryPi running [HomeAssistant](https://home-assistant.io/).
 * Gateway - Arduino [MySensors](http://www.mysensors.org) Serial  Gateway. See [Serial Gateway](http://www.mysensors.org/build/serial_gateway).
-* Nodes - Arduino + NRF24L01+ + Wharever I want.
+* Nodes - Arduino + NRF24L01+ + Wharever I want. See more on [here](http://www.mysensors.org/build/).
 
 I'm sharing the code for those who are interested in studying these tecnologies.
 
