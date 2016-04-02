@@ -6,8 +6,8 @@
 
 #define RELAY_1  3  // Arduino Digital I/O pin number for first relay (second on pin+1 etc)
 #define NUMBER_OF_RELAYS 3 // Total number of attached relays
-#define RELAY_ON 1  // GPIO value to write to turn on attached relay
-#define RELAY_OFF 0 // GPIO value to write to turn off attached relay
+#define RELAY_ON 0  // GPIO value to write to turn on attached relay
+#define RELAY_OFF 1 // GPIO value to write to turn off attached relay
 
 // NRFRF24L01 radio driver (set low transmit power by default)
 MyTransportNRF24 radio(RF24_CE_PIN, RF24_CS_PIN, RF24_PA_LEVEL_GW);
